@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:entries="@array/beer_colors" />
+        android:entries="@array/beer_color" />
 
     <Button
         android:id="@+id/find_beer"
