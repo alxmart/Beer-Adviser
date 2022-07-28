@@ -23,10 +23,14 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-
-
-
-
+        fun getBeers(color: String): List<String> {
+            return  when (color) {
+                "Light" -> listOf("Jail Pale Ale", "Lager Lite")
+                "Amber" -> listOf("Jack Amber", "Red Moose")
+                "Brown" -> listOf("Brown Bear Beer", "Bock Brownie")
+                else -> listOf("Gout Stout", "Dark Daniel")
+            }
+        }
 
 
     }
